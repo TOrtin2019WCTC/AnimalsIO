@@ -9,7 +9,7 @@ import java.util.*;
 
 /**
  *
- * @author bitstudent
+ * @author Tim Ortin
  */
 public class AnimalInput {
 
@@ -47,7 +47,8 @@ public class AnimalInput {
         do {
             System.out.println("Is the dog friendly? Y/N");
             friendly = keyboard.nextLine().toUpperCase();
-
+            
+            // this may not be a valid use of a trycatch block. 
             try {
 
                 if (friendly.equals("Y")) {
